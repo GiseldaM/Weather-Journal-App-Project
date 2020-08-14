@@ -5,7 +5,7 @@
 // Personal API Key for OpenWeatherMap API
 
 let baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
-const apiKey = 'bd7c9be239bc196112dd11ef3bbb4cdf';
+const apiKey = '&appid=bd7c9be239bc196112dd11ef3bbb4cdf';
 let d = new Date();
 let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
 
