@@ -34,11 +34,11 @@ function sendData (request, response) {
 }
 
 app.post('/addData', function (request, response) {
-        let newEntry = {
-        temperature: request.body.temperature,
-        date: request.body.date,
-        userResponse: request.body.userResponse
-    }
+    let newEntry = {
+    temperature: request.body.temp,
+    date: request.body.date,
+    userResponse: request.body.content,
+  };
     projectData = newEntry;
     response.send(projectData);
 })
