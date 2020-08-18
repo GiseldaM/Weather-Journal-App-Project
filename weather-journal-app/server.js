@@ -36,7 +36,7 @@ function sendData (request, response) {
 app.post('/addData', function (request, response) {
     let newEntry = {
     temperature: request.body.temp,
-    date: request.body.date,
+    date: request.body.date, temp
     userResponse: request.body.content,
   };
     projectData = newEntry;
