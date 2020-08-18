@@ -11,7 +11,6 @@ let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
 
 document.getElementById('generate').addEventListener('click', performAction);
 
-//check letzip error and structure
 
 function performAction(e){
 	let zip = document.getElementById('zip').value;
